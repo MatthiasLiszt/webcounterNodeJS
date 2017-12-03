@@ -1,0 +1,24 @@
+{
+  "name": "mongoDB-webcounter",
+  "version": "1.0.0",
+  "description": "webcounter with MongoDB and Node.Js for presentation",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "mongoDB",
+    "presentation",
+    "sample"
+  ],
+  "author": "Matthias Liszt",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "html": "^1.0.0",
+    "mongoose": "^4.13.6",
+    "path": "^0.12.7"
+  }
+}
