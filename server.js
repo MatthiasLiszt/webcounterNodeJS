@@ -9,7 +9,6 @@ var mongoUrl = process.env.MONGODBURL;
 //database schemas and models
 
 var visitorSchema = mongoose.Schema({  visitors: Number });
-   
 
 var Visitor=mongoose.model('Visitor',visitorSchema);
 
